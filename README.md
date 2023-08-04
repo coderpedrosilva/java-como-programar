@@ -6,7 +6,6 @@ da linguagem Java, proporcionando uma visão abrangente das principais caracter�
 
 ### Aqui estão os capítulos que serão abordados:
 
-- 1 Introdução a computadores, internet e Java
 - 2 Introdução a aplicativos Java – entrada/saída e operadores
 - 3 Introdução a classes, objetos, métodos e strings
 - 4 Instruções de controle: parte 1; operadores de atribuição ++ e --
