@@ -1,6 +1,6 @@
 # java-como-programar
 
-Neste repositório você encontrará a reprodução dos exemplos apresentados no livro "Java como Programar", 
+Neste repositório você encontrará a reprodução dos exemplos apresentados no livro "Java como Programar", do autor Paul Deitel, 
 capítulo por capítulo. O objetivo deste projeto é auxiliar no aprendizado e prática dos conceitos fundamentais 
 da linguagem Java, proporcionando uma visão abrangente das principais características da programação orientada a objetos.
 
