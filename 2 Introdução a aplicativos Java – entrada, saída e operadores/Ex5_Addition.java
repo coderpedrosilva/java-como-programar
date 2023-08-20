@@ -19,7 +19,7 @@ public class Ex5_Addition {
         System.out.print("Enter second integer: "); // prompt
         number2 = input.nextInt(); // lê o segundo número fornecido pelo usuário
 
-        sum = number1 + number2; // soma os números, depois armazena o total em sumÿ
+        sum = number1 + number2; // soma os números, depois armazena o total em sum
 
         System.out.printf("Sum is %d%n", sum); // exibe a soma
     } // fim do método main
