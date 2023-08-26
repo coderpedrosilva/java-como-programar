@@ -23,9 +23,9 @@ public class Ex10_Account {
     }
 
     // método retorna o saldo da conta
- public double getBalance() { 
-  return balance;
- }
+    public double getBalance() {
+        return balance;
+    }
 
     // método que define o nome
     public void setName(String name) {
