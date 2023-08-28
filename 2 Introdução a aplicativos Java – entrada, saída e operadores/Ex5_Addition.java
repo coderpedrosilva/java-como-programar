@@ -1,7 +1,7 @@
 
 // Figura 2.7: Addition.java
 // Programa de adição que insere dois números, então exibe a soma deles.
-import java.util.Scanner; // programa utiliza a classe Scannerÿ
+import java.util.Scanner; // programa utiliza a classe Scanner
 
 public class Ex5_Addition {
     // método main inicia a execução do aplicativo Java

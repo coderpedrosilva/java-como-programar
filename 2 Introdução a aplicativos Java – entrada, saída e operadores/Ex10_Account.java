@@ -12,7 +12,7 @@ public class Ex10_Account {
 
         // valida que o balance é maior que 0.0; se não for,
         // a variável de instância balance mantém seu valor inicial padrão de 0.0
-        if (balance > 0.0) // se o saldo for válido ÿ
+        if (balance > 0.0) // se o saldo for válido
             this.balance = balance; // o atribui à variável de instância balance
     }
 

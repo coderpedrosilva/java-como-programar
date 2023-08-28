@@ -5,7 +5,7 @@
 public class Ex9_AccountTest2 {
     public static void main(String[] args) {
 
-        // cria dois objetos Account ÿ
+        // cria dois objetos Account
         Ex7_Account account1 = new Ex7_Account("Jane Green");
         Ex7_Account account2 = new Ex7_Account("John Blue");
 
