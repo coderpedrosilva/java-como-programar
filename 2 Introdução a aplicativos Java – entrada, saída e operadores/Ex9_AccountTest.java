@@ -2,7 +2,7 @@
 // Usando o construtor de Account para inicializar a instância name
 // variável no momento em que cada objeto Account é criado.
 
-public class Ex9_AccountTest2 {
+public class Ex9_AccountTest {
     public static void main(String[] args) {
 
         // cria dois objetos Account
