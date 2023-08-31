@@ -1,7 +1,7 @@
 // Figura 2.1: Welcome1.java
 // Programa de impressão de texto.
 
-public class Ex1_Welcome1 {
+public class Ex1_Welcome {
     // método main inicia a execução do aplicativo Java
     public static void main(String[] args) {
         System.out.println("Welcome to Java Programming!");
