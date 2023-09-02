@@ -10,7 +10,7 @@ public class Ex16_ClassAverage {
 
         // fase de inicialização
         int total = 0; // inicializa a soma das notas inseridas pelo usuário
-        int gradeCounter = 1; // inicializa nº da nota a ser inserido em seguidaÿ
+        int gradeCounter = 1; // inicializa nº da nota a ser inserido em seguida
 
         // fase de processamento utiliza repetição controlada por contador
         while (gradeCounter <= 10) // faz o loop 10 vezes
