@@ -5,7 +5,7 @@ public class ContinueTest {
         for (int count = 1; count <= 10; count++) // faz o loop 10 vezes
         {
             if (count == 5)
-                continue; // pula o código restante no corpo do loop se a contagem for 5ÿ
+                continue; // pula o código restante no corpo do loop se a contagem for 5
 
             System.out.printf("%d ", count);
         }
