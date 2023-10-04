@@ -4,7 +4,7 @@
 import java.security.SecureRandom;
 
 public class Ex51_DeckOfCards {
-    private Card[] deck; // array de objetos Cardÿ
+    private Ex50_Card[] deck; // array de objetos Cardÿ
     private int currentCard; // índice da próxima Card a ser distribuída (0-51)
     private static final int NUMBER_OF_CARDS = 52; // número constante de Cards
     // gerador de número aleatório
@@ -16,12 +16,12 @@ public class Ex51_DeckOfCards {
                 "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
         String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
-        deck = new Card[NUMBER_OF_CARDS]; // cria array de objetos Cardÿ
+        deck = new Ex50_Card[NUMBER_OF_CARDS]; // cria array de objetos Cardÿ
         currentCard = 0; // a primeira Card distribuída será o deck[0]
 
         // preenche baralho com objetos Card ÿ
         for (int count = 0; count < deck.length; count++)
-            deck[count] = new Card(faces[count % 13], suits[count / 13]);
+            deck[count] = new Ex50_Card(faces[count % 13], suits[count / 13]);
     }
 
     // embaralha as cartas com um algoritmo de uma passagem
@@ -35,14 +35,14 @@ public class Ex51_DeckOfCards {
             int second = randomNumbers.nextInt(NUMBER_OF_CARDS);
 
             // compara Card atual com Card aleatoriamente selecionada
-            Card temp = deck[first];
+            Ex50_Card temp = deck[first];
             deck[first] = deck[second];
             deck[second] = temp;
         }
     }
 
     // distribui uma Card
-    public Card dealCard() {
+    public Ex50_Card dealCard() {
         // determina se ainda há Cards a serem distribuídas
         if (currentCard < deck.length)
             return deck[currentCard++]; // retorna Card atual no array
