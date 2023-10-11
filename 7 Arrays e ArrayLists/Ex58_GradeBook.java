@@ -1,12 +1,12 @@
 // Figura 7.18: GradeBook.java
 // classe GradeBook utilizando um array bidimensional para armazenar notas.
 
-public class GradeBook {
+public class Ex58_GradeBook {
     private String courseName; // nome de curso que este livro de nota representa
     private int[][] grades; // array bidimensional de notas de alunoÿ
 
     // construtor de dois argumentos inicializa courseName e array de notas
-    public GradeBook(String courseName, int[][] grades) {
+    public Ex58_GradeBook(String courseName, int[][] grades) {
         this.courseName = courseName;
         this.grades = grades;
     }
