@@ -5,7 +5,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-public class DrawRainbow extends JPanel {
+public class Ex64_DrawRainbow extends JPanel {
     // define as cores índigo e violeta
     private final static Color VIOLET = new Color(128, 0, 128);
     private final static Color INDIGO = new Color(75, 0, 130);
@@ -16,7 +16,7 @@ public class DrawRainbow extends JPanel {
             Color.GREEN, Color.YELLOW, Color.ORANGE, Color.RED };
 
     // construtor
-    public DrawRainbow() {
+    public Ex64_DrawRainbow() {
         setBackground(Color.WHITE); // configura o fundo como branco
     }
 
