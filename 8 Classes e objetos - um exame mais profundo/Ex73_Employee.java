@@ -1,15 +1,16 @@
 // Figura 8.8: Employee.java
 // Classe Employee com referência a outros objetos.
 
+import java.time.LocalDate;
+
 public class Ex73_Employee {
     private String firstName;
     private String lastName;
-    private Date birthDate;
-    private Date hireDate;
+    private LocalDate birthDate;
+    private LocalDate hireDate;
 
     // construtor para inicializar nome, data de nascimento e data de contratação
-    public Ex73_Employee(String firstName, String lastName, Date birthDate,
-            Date hireDate) {
+    public Ex73_Employee(String firstName, String lastName, LocalDate birthDate, LocalDate hireDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;
