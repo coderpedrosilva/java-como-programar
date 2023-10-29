@@ -3,7 +3,7 @@
 // objetos Employee na memória.
 
 public class Ex77_Employee {
-    private static int count = 0; // número de Employees criadosÿ
+    private static int count = 0; // número de Employees criados
     private String firstName;
     private String lastName;
 
@@ -13,7 +13,7 @@ public class Ex77_Employee {
         this.firstName = firstName;
         this.lastName = lastName;
 
-        ++count; // incrementa contagem estática de empregadosÿ
+        ++count; // incrementa contagem estática de empregados
         System.out.printf("Employee constructor: %s %s; count = %d%n",
                 firstName, lastName, count);
     }
@@ -28,7 +28,7 @@ public class Ex77_Employee {
         return lastName;
     }
 
-    // método estático para obter valor de contagem de estáticaÿ
+    // método estático para obter valor de contagem de estática
     public static int getCount() {
         return count;
     }
