@@ -4,7 +4,7 @@
 import java.math.BigDecimal;
 import java.text.NumberFormat;
 
-public class Interest {
+public class Ex81_Interest {
     public static void main(String args[]) {
         // quantidade principal inicial antes dos juros
         BigDecimal principal = BigDecimal.valueOf(1000.0);
