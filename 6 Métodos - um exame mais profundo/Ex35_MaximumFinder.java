@@ -23,9 +23,9 @@ public class Ex35_MaximumFinder {
         System.out.println("Maximum is: " + result);
     }
 
-    // retorna o máximo dos seus três parâmetros de double ÿ
+    // retorna o máximo dos seus três parâmetros de double
     public static double maximum(double x, double y, double z) {
-        double maximumValue = x; // supõe que x é o maior valor inicialÿ
+        double maximumValue = x; // supõe que x é o maior valor inicial
 
         // determina se y é maior que maximumValue
         if (y > maximumValue)

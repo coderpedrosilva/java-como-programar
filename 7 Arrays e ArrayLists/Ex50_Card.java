@@ -11,7 +11,7 @@ public class Ex50_Card {
         this.suit = cardSuit; // inicializa naipe da carta
     }
 
-    // retorna representação String de Cardÿ
+    // retorna representação String de Card
     public String toString() {
         return face + " of " + suit;
     }

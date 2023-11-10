@@ -17,7 +17,7 @@ public class Ex61_InitArray {
             int initialValue = Integer.parseInt(args[1]);
             int increment = Integer.parseInt(args[2]);
 
-            // calcula valor de cada elemento do array ÿ
+            // calcula valor de cada elemento do array
             for (int counter = 0; counter < array.length; counter++)
                 array[counter] = initialValue + increment * counter;
 

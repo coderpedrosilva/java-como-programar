@@ -4,7 +4,7 @@
 public class InitArray {
     public static void main(String[] args) {
         final int ARRAY_LENGTH = 10; // declara constante
-        int[] array = new int[ARRAY_LENGTH]; // cria o arrayÿ
+        int[] array = new int[ARRAY_LENGTH]; // cria o array
 
         // calcula valor de cada elemento do array
         for (int counter = 0; counter < array.length; counter++)

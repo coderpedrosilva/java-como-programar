@@ -8,7 +8,7 @@ public class Ex43_InitArray {
 
         System.out.printf("%s%8s%n", "Index", "Value"); // títulos de coluna
 
-        // gera saída do valor de cada elemento do array ÿ
+        // gera saída do valor de cada elemento do array
         for (int counter = 0; counter < array.length; counter++)
             System.out.printf("%5d%8d%n", counter, array[counter]);
     }

@@ -13,7 +13,7 @@ public class PassArray {
         for (int value : array)
             System.out.printf(" %d", value);
 
-        modifyArray(array); // passa a referência do arrayÿ
+        modifyArray(array); // passa a referência do array
         System.out.printf("%n%nThe values of the modified array are:%n");
 
         // gera saída de elementos do array modificado
@@ -25,18 +25,18 @@ public class PassArray {
                         "array[3] before modifyElement: %d%n",
                 array[3]);
 
-        modifyElement(array[3]); // tenta modificar o array[3]ÿ
+        modifyElement(array[3]); // tenta modificar o array[3]
         System.out.printf(
                 "array[3] after modifyElement: %d%n", array[3]);
     }
 
-    // multiplica cada elemento de um array por 2 ÿ
+    // multiplica cada elemento de um array por 2
     public static void modifyArray(int[] array2) {
         for (int counter = 0; counter < array2.length; counter++)
             array2[counter] *= 2;
     }
 
-    // multiplica argumento por 2 ÿ
+    // multiplica argumento por 2
     public static void modifyElement(int element) {
         element *= 2;
         System.out.printf(

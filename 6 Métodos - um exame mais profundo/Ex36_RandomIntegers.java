@@ -1,11 +1,11 @@
 
 // Figura 6.6: RandomIntegers.java
 // Inteiros aleatórios deslocados e escalonados.
-import java.security.SecureRandom; // o programa usa a classe SecureRandomÿ
+import java.security.SecureRandom; // o programa usa a classe SecureRandom
 
 public class Ex36_RandomIntegers {
     public static void main(String[] args) {
-        // o objeto randomNumbers produzirá números aleatórios segurosÿ
+        // o objeto randomNumbers produzirá números aleatórios seguros
         SecureRandom randomNumbers = new SecureRandom();
 
         // faz o loop 20 vezes

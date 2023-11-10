@@ -2,11 +2,11 @@
 // A classe CommissionEmployee representa um empregado que recebeu um
 // percentual das vendas brutas.
 public class Ex85_CommissionEmployee extends Object {
-    private final String firstName;
-    private final String lastName;
-    private final String socialSecurityNumber;
-    private double grossSales; // vendas brutas semanais
-    private double commissionRate; // percentagem da comissão
+    protected final String firstName;
+    protected final String lastName;
+    protected final String socialSecurityNumber;
+    protected double grossSales; // vendas brutas semanais
+    protected double commissionRate; // percentagem da comissão
 
     // construtor de cinco argumentos
     public Ex85_CommissionEmployee(String firstName, String lastName,
@@ -74,7 +74,7 @@ public class Ex85_CommissionEmployee extends Object {
         return commissionRate;
     }
 
-    // calcula os lucros ÿ
+    // calcula os lucros
     public double earnings() {
         return commissionRate * grossSales;
     }

@@ -8,7 +8,7 @@ public class Scope {
     // O método main cria e inicializa a variável local x
     // e chama os métodos useLocalVariable e useField
     public static void main(String[] args) {
-        int x = 5; // variável local x do método sombreia o campo xÿ
+        int x = 5; // variável local x do método sombreia o campo x
 
         System.out.printf("local x in main is %d%n", x);
 
@@ -35,7 +35,7 @@ public class Scope {
     public static void useField() {
         System.out.printf(
                 "%nfield x on entering method useField is %d%n", x);
-        x *= 10; // modifica o campo x da classe Scopeÿ
+        x *= 10; // modifica o campo x da classe Scope
         System.out.printf(
                 "field x before exiting method useField is %d%n", x);
     }

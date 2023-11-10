@@ -3,7 +3,7 @@
 
 public class Ex55_GradeBook {
     private String courseName; // nome do curso que essa GradeBook representa
-    private int[] grades; // array de notas de alunoÿ
+    private int[] grades; // array de notas de aluno
 
     // construtor
     public Ex55_GradeBook(String courseName, int[] grades) {
@@ -70,7 +70,7 @@ public class Ex55_GradeBook {
     public double getAverage() {
         int total = 0;
 
-        // soma notas de um alunoÿ
+        // soma notas de um aluno
         for (int grade : grades)
             total += grade;
 
@@ -85,7 +85,7 @@ public class Ex55_GradeBook {
         // armazena frequência de notas em cada intervalo de 10 notas
         int[] frequency = new int[11];
 
-        // para cada nota, incrementa a frequência apropriadaÿ
+        // para cada nota, incrementa a frequência apropriada
         for (int grade : grades)
             ++frequency[grade / 10];
 

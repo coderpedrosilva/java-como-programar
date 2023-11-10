@@ -9,17 +9,17 @@ public class Ex70_Time2 {
     // construtor sem argumento Time2:
     // inicializa cada variável de instância para zero
     public Ex70_Time2() {
-        this(0, 0, 0); // invoca o construtor com três argumentosÿ
+        this(0, 0, 0); // invoca o construtor com três argumentos
     }
 
     // Construtor Time2: hora fornecida, minuto e segundo padronizados para 0
     public Ex70_Time2(int hour) {
-        this(hour, 0, 0); // invoca o construtor com três argumentosÿ
+        this(hour, 0, 0); // invoca o construtor com três argumentos
     }
 
     // Construtor Time2: hora e minuto fornecidos, segundo padronizado para 0
     public Ex70_Time2(int hour, int minute) {
-        this(hour, minute, 0); // invoca o construtor com três argumentosÿ
+        this(hour, minute, 0); // invoca o construtor com três argumentos
     }
 
     // Construtor Time2: hour, minute e second fornecidos
@@ -40,7 +40,7 @@ public class Ex70_Time2 {
 
     // Construtor Time2: outro objeto Time2 fornecido
     public Ex70_Time2(Ex70_Time2 time) {
-        // invoca o construtor com três argumentos ÿ
+        // invoca o construtor com três argumentos
         this(time.getHour(), time.getMinute(), time.getSecond());
     }
 

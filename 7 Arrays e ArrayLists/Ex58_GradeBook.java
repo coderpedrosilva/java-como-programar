@@ -3,7 +3,7 @@
 
 public class Ex58_GradeBook {
     private String courseName; // nome de curso que este livro de nota representa
-    private int[][] grades; // array bidimensional de notas de alunoÿ
+    private int[][] grades; // array bidimensional de notas de aluno
 
     // construtor de dois argumentos inicializa courseName e array de notas
     public Ex58_GradeBook(String courseName, int[][] grades) {
@@ -72,15 +72,15 @@ public class Ex58_GradeBook {
         return highGrade;
     }
 
-    // determina a média do conjunto particular de notasÿ
+    // determina a média do conjunto particular de notas
     public double getAverage(int[] setOfGrades) {
         int total = 0;
 
-        // soma notas de um aluno ÿ
+        // soma notas de um aluno
         for (int grade : setOfGrades)
             total += grade;
 
-        // retorna média de notas ÿ continua
+        // retorna média de notas continua
 
         return (double) total / setOfGrades.length;
     }
@@ -92,7 +92,7 @@ public class Ex58_GradeBook {
         // armazena frequência de notas em cada intervalo de 10 notas
         int[] frequency = new int[11];
 
-        // para cada nota em GradeBook, incrementa a frequência apropriadaÿ
+        // para cada nota em GradeBook, incrementa a frequência apropriada
         for (int[] studentGrades : grades) {
             for (int grade : studentGrades)
                 ++frequency[grade / 10];

@@ -16,9 +16,9 @@ public class InitArray {
 
     // gera saída de linhas e colunas de um array bidimensional
     public static void outputArray(int[][] array) {
-        // faz um loop pelas linhas do array ÿ
+        // faz um loop pelas linhas do array
         for (int row = 0; row < array.length; row++) {
-            // faz um loop pelas colunas da linha atual ÿ
+            // faz um loop pelas colunas da linha atual
             for (int column = 0; column < array[row].length; column++)
                 System.out.printf("%d ", array[row][column]);
 

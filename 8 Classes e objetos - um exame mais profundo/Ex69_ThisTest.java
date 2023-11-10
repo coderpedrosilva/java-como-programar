@@ -18,9 +18,9 @@ class SimpleTime {
     // nomes de variáveis de instância a referência "this" será
     // exigida para distinguir entre os nomes
     public SimpleTime(int hour, int minute, int second) {
-        this.hour = hour; // configura a hora do objeto "this" ÿ
-        this.minute = minute; // configura o minuto do objeto "this" ÿ
-        this.second = second; // configura o segundo do objeto "this"ÿ
+        this.hour = hour; // configura a hora do objeto "this"
+        this.minute = minute; // configura o minuto do objeto "this"
+        this.second = second; // configura o segundo do objeto "this"
     }
 
     // utilizam "this" explícito e implícito para chamar toUniversalString

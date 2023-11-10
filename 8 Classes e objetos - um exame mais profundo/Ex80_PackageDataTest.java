@@ -9,7 +9,7 @@ public class PackageDataTest {
         // gera saída da representação String de packageData
         System.out.printf("After instantiation:%n%s%n", packageData);
 
-        // muda os dados de acesso de pacote no objeto packageDataÿ
+        // muda os dados de acesso de pacote no objeto packageData
         packageData.number = 77;
         packageData.string = "Goodbye";
 
@@ -20,8 +20,8 @@ public class PackageDataTest {
 
 // classe com variáveis de instância de acesso de pacote
 class PackageData {
-    int number; // variável de instância de acesso de pacote ÿ
-    String string; // variável de instância de acesso de pacoteÿ
+    int number; // variável de instância de acesso de pacote
+    String string; // variável de instância de acesso de pacote
 
     // construtor
     public PackageData() {
