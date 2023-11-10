@@ -24,7 +24,7 @@ public class Ex86_CommissionEmployeeTest {
                 employee.setGrossSales(5000);
                 employee.setCommissionRate(.1);
 
-                System.out.printf("%n%s:%n%nï%s%n",
+                System.out.printf("%n%s:%n%n%s%n",
                                 "Updated employee information obtained by toString", employee);
         } // fim de main
 } // fim da classe CommissionEmployeeTest

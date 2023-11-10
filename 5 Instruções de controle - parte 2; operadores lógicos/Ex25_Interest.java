@@ -8,7 +8,7 @@ public class Ex25_Interest {
         double rate = 0.05; // taxa de juros
 
         // exibe cabeçalhos
-        System.out.printf("%sï%20s %n", "Year", "Amount on deposit");
+        System.out.printf("%s%20s %n", "Year", "Amount on deposit");
 
         // calcula quantidade de depósito para cada um dos dez anos
         for (int year = 1; year <= 10; ++year) {
