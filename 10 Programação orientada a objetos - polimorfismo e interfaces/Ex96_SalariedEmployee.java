@@ -30,13 +30,13 @@ public class Ex96_SalariedEmployee extends Ex95_Employee {
         return weeklySalary;
     }
 
-    // calcula os rendimentos; sobrescreve o método earnings em Employeeÿ
+    // calcula os rendimentos; sobrescreve o método earnings em Employee
     @Override
     public double earnings() {
         return getWeeklySalary();
     }
 
-    // retorna a representação String do objeto SalariedEmployee ÿ
+    // retorna a representação String do objeto SalariedEmployee
     @Override
     public String toString() {
         return String.format("salaried employee: %s%n%s: $%,.2f",

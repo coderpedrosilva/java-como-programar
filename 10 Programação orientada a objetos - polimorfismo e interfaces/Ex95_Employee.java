@@ -36,6 +36,6 @@ public abstract class Ex95_Employee {
                 getFirstName(), getLastName(), getSocialSecurityNumber());
     }
 
-    // O método abstract deve ser sobrescrito pelas subclasses concretasÿ
-    public abstract double earnings(); // nenhuma implementação aqui ÿ
+    // O método abstract deve ser sobrescrito pelas subclasses concretas
+    public abstract double earnings(); // nenhuma implementação aqui
 } // fim da classe abstrata Employee
