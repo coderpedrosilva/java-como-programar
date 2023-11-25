@@ -3,7 +3,7 @@
 
 public class Ex100_PayrollSystemTest {
         public static void main(String[] args) {
-                // cria objetos de subclasse ÿ
+                // cria objetos de subclasse
                 Ex96_SalariedEmployee salariedEmployee = new Ex96_SalariedEmployee("John", "Smith", "111-11-1111",
                                 800.00);
                 Ex97_HourlyEmployee hourlyEmployee = new Ex97_HourlyEmployee("Karen", "Price", "222-22-2222", 16.75,
@@ -28,7 +28,7 @@ public class Ex100_PayrollSystemTest {
                 // cria um array Employee de quatro elementos
                 Ex95_Employee[] employees = new Ex95_Employee[4];
 
-                // inicializa o array com Employees ÿ
+                // inicializa o array com Employees
                 employees[0] = salariedEmployee;
                 employees[1] = hourlyEmployee;
                 employees[2] = commissionEmployee;
