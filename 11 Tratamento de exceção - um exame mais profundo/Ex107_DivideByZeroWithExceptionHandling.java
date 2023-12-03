@@ -26,11 +26,11 @@ public class Ex107_DivideByZeroWithExceptionHandling {
                 int result = quotient(numerator, denominator);
                 System.out.printf("%nResult: %d / %d = %d%n", numerator,
                         denominator, result);
-                continueLoop = false; // entrada bem-sucedida; fim do loop ÿ
+                continueLoop = false; // entrada bem-sucedida; fim do loop
             } catch (InputMismatchException inputMismatchException) {
                 System.err.printf("%nException: %s%n",
                         inputMismatchException);
-                scanner.nextLine(); // descarta entrada para o usuário tentar de novo ÿ
+                scanner.nextLine(); // descarta entrada para o usuário tentar de novo
                 System.out.printf(
                         "You must enter integers. Please try again.%n%n");
             } catch (ArithmeticException arithmeticException) {

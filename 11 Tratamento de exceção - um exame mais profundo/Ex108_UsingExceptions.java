@@ -18,7 +18,7 @@ public class Ex108_UsingExceptions {
         try // lança uma exceção e imediatamente a captura
         {
             System.out.println("Method throwException");
-            throw new Exception(); // gera a exceçãoÿ
+            throw new Exception(); // gera a exceção
         } catch (Exception exception) // captura exceção lançada em try
         {
             System.err.println(

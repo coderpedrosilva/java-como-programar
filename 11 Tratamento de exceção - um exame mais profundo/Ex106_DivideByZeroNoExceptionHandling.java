@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex106_DivideByZeroNoExceptionHandling {
     // demonstra o lançamento de uma exceção quando ocorre uma divisão por zero
     public static int quotient(int numerator, int denominator) {
-        return numerator / denominator; // possível divisão por zeroÿ
+        return numerator / denominator; // possível divisão por zero
     }
 
     public static void main(String[] args) {
