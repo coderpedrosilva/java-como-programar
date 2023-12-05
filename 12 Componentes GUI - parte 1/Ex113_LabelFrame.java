@@ -23,7 +23,7 @@ public class Ex113_LabelFrame extends JFrame {
         label1.setToolTipText("This is label1");
         add(label1); // adiciona o label1 ao JFrame
 
-        // construtor JLabel com string, Icon e argumentos de alinhamentoÿ
+        // construtor JLabel com string, Icon e argumentos de alinhamentos
         Icon bug = new ImageIcon(getClass().getResource("bug1.png"));
         label2 = new JLabel("Label with text and icon", bug,
                 SwingConstants.LEFT);
