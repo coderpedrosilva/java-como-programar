@@ -30,7 +30,7 @@ public class Ex113_LabelFrame extends JFrame {
         label2.setToolTipText("This is label2");
         add(label2); // adiciona label2 ao JFrame
 
-        label3 = new JLabel(); // Construtor JLabel sem argumentosÿ
+        label3 = new JLabel(); // Construtor JLabel sem argumentos
         label3.setText("Label with icon and text at bottom");
         label3.setIcon(bug); // adiciona o ícone ao JLabel
         label3.setHorizontalTextPosition(SwingConstants.CENTER);
