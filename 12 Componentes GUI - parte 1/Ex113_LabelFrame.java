@@ -18,7 +18,7 @@ public class Ex113_LabelFrame extends JFrame {
         super("Testing JLabel");
         setLayout(new FlowLayout()); // configura o layout de frame
 
-        // Construtor JLabel com um argumento de stringÿ
+        // Construtor JLabel com um argumento de string
         label1 = new JLabel("Label with text");
         label1.setToolTipText("This is label1");
         add(label1); // adiciona o label1 ao JFrame
