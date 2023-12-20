@@ -11,7 +11,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.ListSelectionModel;
 
 public class Ex125_ListFrame extends JFrame {
-    private final JList<String> colorJList; // lista para exibir coresÿ
+    private final JList<String> colorJList; // lista para exibir cores
     private static final String[] colorNames = { "Black", "Blue", "Cyan",
             "Dark Gray", "Gray", "Green", "Light Gray", "Magenta",
             "Orange", "Pink", "Red", "White", "Yellow" };
@@ -28,7 +28,7 @@ public class Ex125_ListFrame extends JFrame {
         colorJList = new JList<String>(colorNames); // lista de colorNames
         colorJList.setVisibleRowCount(5); // exibe cinco linhas de uma vez
 
-        // não permite múltiplas seleções ÿ
+        // não permite múltiplas seleções
         colorJList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
         // adiciona um JScrollPane que contém JList ao frame
