@@ -23,7 +23,7 @@ public class Ex135_KeyDemoFrame extends JFrame implements KeyListener {
         textArea.setDisabledTextColor(Color.BLACK);
         add(textArea); // adiciona área de texto ao JFrame
 
-        addKeyListener(this); // permite que o frame processe os eventos de tecladoÿ
+        addKeyListener(this); // permite que o frame processe os eventos de teclado
     }
 
     // trata pressionamento de qualquer tecla

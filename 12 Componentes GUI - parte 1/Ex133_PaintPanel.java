@@ -22,7 +22,7 @@ public class Ex133_PaintPanel extends JPanel {
                     @Override
                     public void mouseDragged(MouseEvent event) {
                         points.add(event.getPoint());
-                        repaint(); // repinta JFrameÿ
+                        repaint(); // repinta JFrame
                     }
 
                 });
