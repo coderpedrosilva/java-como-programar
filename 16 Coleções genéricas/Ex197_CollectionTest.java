@@ -12,7 +12,7 @@ public class Ex197_CollectionTest {
         String[] colors = { "MAGENTA", "RED", "WHITE", "BLUE", "CYAN" };
         List<String> list = new ArrayList<String>();
         for (String color : colors)
-            list.add(color); // adiciona color ao final da listaÿ
+            list.add(color); // adiciona color ao final da lista
 
         // adiciona elementos no array removeColors em removeList
         String[] removeColors = { "RED", "WHITE", "BLUE" };
@@ -46,7 +46,7 @@ public class Ex197_CollectionTest {
         // loop enquanto a coleção tiver itens
         while (iterator.hasNext()) {
             if (collection2.contains(iterator.next()))
-                iterator.remove(); // remove o elemento atualÿ
+                iterator.remove(); // remove o elemento atual
         }
     }
 } // fim da classe CollectionTest

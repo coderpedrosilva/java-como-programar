@@ -14,7 +14,7 @@ public class FileAndDirectoryInfo {
 
         System.out.println("Enter file or directory name:");
 
-        // cria o objeto Path com base na entrada de usuárioÿ
+        // cria o objeto Path com base na entrada de usuário
         Path path = Paths.get(input.nextLine());
 
         if (Files.exists(path)) // se o caminho existe, gera uma saída das informações sobre ele
@@ -35,7 +35,7 @@ public class FileAndDirectoryInfo {
             {
                 System.out.printf("%nDirectory contents:%n");
 
-                // objeto para iteração pelo conteúdo de um diretórioÿ
+                // objeto para iteração pelo conteúdo de um diretório
                 DirectoryStream<Path> directoryStream = Files.newDirectoryStream(path);
 
                 for (Path p : directoryStream)

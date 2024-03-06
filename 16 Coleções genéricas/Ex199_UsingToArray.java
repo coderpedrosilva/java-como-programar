@@ -13,7 +13,7 @@ public class Ex199_UsingToArray {
         links.addLast("red"); // adiciona como o último item
         links.add("pink"); // adiciona ao final
         links.add(3, "green"); // adiciona no terceiro índice
-        links.addFirst("cyan"); // adiciona como primeiro itemÿ
+        links.addFirst("cyan"); // adiciona como primeiro item
 
         // obtém elementos LinkedList como um array
         colors = links.toArray(new String[links.size()]);

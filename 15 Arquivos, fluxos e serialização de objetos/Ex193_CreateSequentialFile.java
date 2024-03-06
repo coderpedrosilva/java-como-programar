@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Ex193_CreateSequentialFile {
-    private static ObjectOutputStream output; // gera saída dos dados no arquivoÿ
+    private static ObjectOutputStream output; // gera saída dos dados no arquivo
 
     public static void main(String[] args) {
         openFile();
@@ -43,7 +43,7 @@ public class Ex193_CreateSequentialFile {
                 Ex192_Account record = new Ex192_Account(input.nextInt(),
                         input.next(), input.next(), input.nextDouble());
 
-                // serializa o objeto de registro em um arquivoÿ
+                // serializa o objeto de registro em um arquivo
                 output.writeObject(record);
             } catch (NoSuchElementException elementException) {
                 System.err.println("Invalid input. Please try again.");

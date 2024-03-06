@@ -16,7 +16,7 @@ public class Ex178_StringBuilderInsertDelete {
         StringBuilder buffer = new StringBuilder();
 
         buffer.insert(0, objectRef);
-        buffer.insert(0, " "); // cada um desses contém dois espaçosÿ
+        buffer.insert(0, " "); // cada um desses contém dois espaços
         buffer.insert(0, string);
         buffer.insert(0, " ");
         buffer.insert(0, charArray);
